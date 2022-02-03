@@ -14,6 +14,7 @@ export const Alert = ({ isOpen, message, variant = 'warning' }: Props) => {
     {
       'bg-rose-200': variant === 'warning',
       'bg-blue-200 z-20': variant === 'success',
+      
     }
   )
 
